@@ -6,30 +6,19 @@
 </head>
 
 <body>
-
-
-
     <div class="container">
-
-
-    <div class="hero is-full-screen">
-    <section id="features">
-      <h2>cLueLess.school</h2>
-      <ul>
-        <li>⚡️&nbsp; CSS by Chota</li>
-        <li>📐&nbsp; Loaded <a href="#grid">grid</a></li>
-        <li>🌈&nbsp; With real fruit!</li>
-        <li>🤡&nbsp; Supports icons out-of-the-box</li>
-      </ul>
-    </section>
+        <div class="hero is-full-screen">
+            <section id="features">
+                <h1>CLUELESS</h1>
+                <ul style="list-style: none;">
+                    <li>⚡️&nbsp; CSS by Chota</li>
+                    <li>📐&nbsp; Coming in Winter 2021 to clueless.school, a Cornell Notes online tool</li>
+                    <li>🌈&nbsp; With real fruit!</li>
+                    <li>🤡&nbsp; Evan Genest is at <a href="https://littlefurnace.com"> Little Furnace</a></li>
+                </ul>
+            </section>
+        </div>
     </div>
-
-
-
-
-   </div>
-
-
 </body>
 
 </html>
