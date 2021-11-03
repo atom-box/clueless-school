@@ -1,4 +1,3 @@
-# Tiberius Folder
 ## This is a page for outputting code challenge answers
 This code doesn't particularly "do" anything except output a static page. 
 ## Who this is for
