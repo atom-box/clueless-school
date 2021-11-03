@@ -1,24 +1,70 @@
 <html>
 
 <head>
+    <title>Hello</title>
+    <style>
 
-    <link rel="stylesheet" href="node_modules/chota/dist/chota.css">
+        body {
+            color: dodgerblue;
+            background-color: darkblue;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 3rem;
+        }
+
+        .centering-container {
+            text-align: center;
+        }
+    /* 
+    CHALKBOARD CLASSES
+    */
+
+        article.codeholder {
+            border: 2px solid yellow;
+            width: 60%;
+            border-radius: 0.3rem;
+            padding: 6px;
+            background-color: black;
+            margin: 4rem;
+        }
+
+        code {
+            font-size: 1.8rem;
+        }
+
+        .definition {
+            color: #888;
+        }
+
+        .question {
+            color: #ffa;
+        }
+
+        .answer {
+            color: #88f;
+        }
+
+    </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="hero is-full-screen">
-            <section id="features">
-                <h1>CLUELESS</h1>
-                <ul style="list-style: none;">
-                    <li>⚡️&nbsp; CSS by Chota</li>
-                    <li>📐&nbsp; Coming in Winter 2021 to clueless.school, a Cornell Notes online tool</li>
-                    <li>🌈&nbsp; With real fruit!</li>
-                    <li>🤡&nbsp; Evan Genest is at <a href="https://littlefurnace.com"> Little Furnace</a></li>
-                </ul>
-            </section>
-        </div>
-    </div>
+    <header>
+        <h1>Challenges.</h1>
+    </header>
+
+    <article class="codeholder">
+    <?php require $_SERVER['DOCUMENT_ROOT'].'/views/chalkboard.php'; ?>
+    </article>
+
+    <article class="codeholder">
+    <?php require $_SERVER['DOCUMENT_ROOT'].'/views/chalkboard2.php'; ?>
+    </article>
+
+    <article class="codeholder">
+    <?php require $_SERVER['DOCUMENT_ROOT'].'/views/chalkboard3.php'; ?>
+    </article>
+</div>
+<?php require $_SERVER['DOCUMENT_ROOT'].'/views/footer.php'; ?>
+
 </body>
 
 </html>
