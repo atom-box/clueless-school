@@ -1,5 +1,5 @@
 <footer class="centering-container">
-    
+
     &copy
     <?php
     $now = getdate();
@@ -7,7 +7,7 @@
     ?>
 
     &#127887; <a href="https://littlefurnace.com">Little Furnace</a>
-
+    <p>Code at  <a href="https://github.com/atom-box" >Github</a>.</p>
     <p>
         <?php
         $imageCount = 4;
