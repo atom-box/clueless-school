@@ -3,16 +3,18 @@
 <head>
     <title>Hello</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TYX96QLKCM"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2FB59FCRY0"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'G-TYX96QLKCM');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2FB59FCRY0');
     </script>
     <style>
-
         body {
             color: dodgerblue;
             background-color: darkblue;
@@ -23,7 +25,8 @@
         .centering-container {
             text-align: center;
         }
-    /* 
+
+        /* 
     CHALKBOARD CLASSES
     */
 
@@ -51,7 +54,6 @@
         .answer {
             color: #88f;
         }
-
     </style>
 </head>
 
@@ -61,18 +63,18 @@
     </header>
 
     <article class="codeholder">
-    <?php require $_SERVER['DOCUMENT_ROOT'].'/views/chalkboard.php'; ?>
+        <?php require $_SERVER['DOCUMENT_ROOT'] . '/views/chalkboard.php'; ?>
     </article>
 
     <article class="codeholder">
-    <?php require $_SERVER['DOCUMENT_ROOT'].'/views/chalkboard2.php'; ?>
+        <?php require $_SERVER['DOCUMENT_ROOT'] . '/views/chalkboard2.php'; ?>
     </article>
 
     <article class="codeholder">
-    <?php require $_SERVER['DOCUMENT_ROOT'].'/views/chalkboard3.php'; ?>
+        <?php require $_SERVER['DOCUMENT_ROOT'] . '/views/chalkboard3.php'; ?>
     </article>
-</div>
-<?php require $_SERVER['DOCUMENT_ROOT'].'/views/footer.php'; ?>
+    </div>
+    <?php require $_SERVER['DOCUMENT_ROOT'] . '/views/footer.php'; ?>
 
 </body>
 
