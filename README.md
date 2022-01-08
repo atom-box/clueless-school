@@ -1,3 +1,8 @@
+## Not live
+I am not currently deploying this anywhere.  
+I was formerly using it to motivate myself to try things in PHP and post the solutions.  
+You could fork it and try putting your own coding exercise solutions into it I suppose.  
+
 ## This is a page for outputting code challenge answers
 This code doesn't particularly "do" anything except output a static page. 
 ## Who this is for
